@@ -29,7 +29,7 @@ def deal_cards():
             print("Bust! You lose.")
             return
         elif total == 21:
-            print("Congratulations! You win!")
+            print("Congratulations! Blackjack!")
             break
 
         draw_next = input("Do you want to draw another card? (y/n): ")
